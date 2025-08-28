@@ -1,0 +1,15 @@
+id: QmQsge51M3VHHtEg7DUwZd5ezYmH6kjxp5ZBCXmEPjqF8j
+description: ""
+tags: []
+source: libraries/api_leaderboard
+trigger:
+    type: https
+    method: GET
+    paths:
+        - /api/leaderboard
+domains:
+    - GeneratedDomain
+execution:
+    timeout: 20s
+    memory: 10MB
+    call: getAll

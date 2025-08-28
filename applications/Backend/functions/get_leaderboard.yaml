@@ -1,0 +1,15 @@
+id: QmYx6MU11VEYTMk8ebYRsxjtmubmJBsYfCq94FTFCbaGbB
+description: ""
+tags: []
+source: libraries/api_leaderboard
+trigger:
+    type: https
+    method: GET
+    paths:
+        - /api/score
+domains:
+    - GeneratedDomain
+execution:
+    timeout: 20s
+    memory: 10MB
+    call: get

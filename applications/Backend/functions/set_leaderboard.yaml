@@ -1,0 +1,15 @@
+id: QmW3RpezLcXWSLJGQTBAkBPRFhYHNrjW2vUo3LtKtfFeeh
+description: ""
+tags: []
+source: libraries/api_leaderboard
+trigger:
+    type: https
+    method: POST
+    paths:
+        - /api/score
+domains:
+    - GeneratedDomain
+execution:
+    timeout: 20s
+    memory: 10MB
+    call: set
