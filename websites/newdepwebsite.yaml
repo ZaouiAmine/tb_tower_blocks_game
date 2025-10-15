@@ -1,0 +1,12 @@
+id: QmdRxGDayLjz4fyRVPnAtLC8b3VveYV9TtJfKMQ98rF3kB
+description: ""
+tags: []
+domains:
+    - another
+source:
+    paths:
+        - /newdep
+    branch: main
+    github:
+        id: 1077105085
+        fullname: ZaouiAmine/tb_website_newdepwebsite
