@@ -1,7 +1,7 @@
 id: QmYx6MU11VEYTMk8ebYRsxjtmubmJBsYfCq94FTFCbaGbB
 description: ""
 tags: []
-source: .
+source: libraries/api_leaderboard
 trigger:
     type: https
     method: GET

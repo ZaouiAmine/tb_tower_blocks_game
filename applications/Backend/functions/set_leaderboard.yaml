@@ -1,7 +1,7 @@
 id: QmW3RpezLcXWSLJGQTBAkBPRFhYHNrjW2vUo3LtKtfFeeh
 description: ""
 tags: []
-source: .
+source: libraries/api_leaderboard
 trigger:
     type: https
     method: POST
