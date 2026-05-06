@@ -2,11 +2,11 @@ id: Qmd22VcVQy5DZJ8X5WZBsk5d7fpWsfQdTS5ddZz76jJ9Gy
 description: "123"
 tags: []
 domains:
-    - GeneratedDomain
+    - host_tower
 source:
     paths:
         - /
     branch: main
     github:
-        id: 1042143724
+        id: "1042143724"
         fullname: ZaouiAmine/example-games-tower-blocks-fork

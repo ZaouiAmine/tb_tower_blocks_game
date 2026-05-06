@@ -1,14 +1,14 @@
 id: QmW3RpezLcXWSLJGQTBAkBPRFhYHNrjW2vUo3LtKtfFeeh
 description: ""
 tags: []
-source: libraries/api_leaderboard
+source: .
 trigger:
     type: https
     method: POST
     paths:
         - /api/score
 domains:
-    - GeneratedDomain
+    - host_tower
 execution:
     timeout: 20s
     memory: 10MB
